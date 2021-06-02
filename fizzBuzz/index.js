@@ -11,12 +11,26 @@
 // Then implement the inverse way, where the resulting string is parsed, but converted into the sum of all the numbers from 1 to num
 // execute npm start on your terminal from the current directory
 
+// InverseFizzBuzz(line: string): number
+
 const expect = require("expect");
 
+/**
+ * FizzBuzz(num: number): string
+ * take a number "num" and return a string as specified above
+ * @param  number num
+ * @return string
+ */
 function FizzBuzz(num) {
-
+  
 }
 
+/**
+ * InverseFizzBuzz(line: string): number
+ * takes string "line", decodes words into numbers and sums all the numbers, returning that numeric sum
+ * @param  string line
+ * @return number
+ */
 function InverseFizzBuzz(line) {
 
 }
