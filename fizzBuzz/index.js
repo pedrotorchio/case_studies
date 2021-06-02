@@ -21,6 +21,8 @@ const expect = require("expect");
  * @param  number num
  * @return string
  */
+expect(FizzBuzz(16)).toEqual("1 2 Fizz 4 Buzz Fizz 7 8");
+expect(FizzBuzz(16)).toEqual("1 2 Fizz 4 Buzz Fizz 7 8 Fizz Buzz 11 Fizz 13 14 FizzBuzz 16");
 function FizzBuzz(num) {
   
 }
@@ -31,12 +33,13 @@ function FizzBuzz(num) {
  * @param  string line
  * @return number
  */
+expect(InverseFizzBuzz("1 2 Fizz 4 Buzz Fizz 7 8")).toBe(36);
+expect(InverseFizzBuzz("1 2 Fizz 4 Buzz Fizz 7 8 Fizz Buzz 11 Fizz 13 14 FizzBuzz 16")).toBe(136);
 function InverseFizzBuzz(line) {
 
 }
 
 
-expect(FizzBuzz(16)).toEqual("1 2 Fizz 4 Buzz Fizz 7 8 Fizz Buzz 11 Fizz 13 14 FizzBuzz 16");
-expect(InverseFizzBuzz("1 2 Fizz 4 Buzz Fizz 7 8 Fizz Buzz 11 Fizz 13 14 FizzBuzz 16")).toBe(136);
-expect(InverseFizzBuzz("1 2 Fizz 4 Buzz Fizz 7 8")).toBe(36);
+
+
 
